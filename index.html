@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <!-- === Important Links === -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- === style css Links === -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="container me-5 d-flex justify-content-end align-items-center">
+        <i class="far fa-calendar-check fa-3x text-white"></i>
+        <h1 class="taskTitle me-auto">TODO</h1>
+        <p class="text-warning fs-3" id="sessionDate"></p>
+      </div>
+
+      <div class="dashboard">
+        <div class=" mx-auto">
+        <div class="mb-5 d-flex justify-content-center align-items-center">
+          <input
+            type="text"
+            class="form-control w-50"
+            placeholder="Enter your task...."
+            id="inputTask"
+          />
+          <i class="bx bx-upload" id="entryButton"></i>
+        </div>
+      </div>
+        <div id="displayDataForWeb">
+         <div
+            class="task container my-3 d-flex justify-content-between align-items-center"
+          >
+            <i class="fas fa-star star"></i>
+            <div class="taskContent">Task sample</div>
+            <div class="icons">
+              <i class="bx bxs-trash trash btn"></i>
+              <i class="bx bx-angry angryFace btn"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
